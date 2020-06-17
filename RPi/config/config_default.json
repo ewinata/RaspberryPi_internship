@@ -1,0 +1,34 @@
+{
+    "TIME": {
+        "REFRESH_TIME": 180,
+        "UPLOAD_TIME": 900,
+        "CHECK_TIME": 10
+    },
+    "STORAGE": {
+        "FIREBASE_URL": "https://aruna-travis.firebaseio.com/",
+        "FIREBASE_GPS_COLLECTION": "/gps",
+        "FIREBASE_SENSOR_COLLECTION": "/sensor"
+    },
+    "SERIAL_PORTS": {
+        "GPS_SERIAL_PATH": "/dev/ttyS0",
+        "BATTERY_SERIAL_PATH": ""
+    },
+    "DEVICE_ID": {
+        "ID": 1,
+        "AREA": "JAKARTA" 
+    },
+    "DATA_FILES": {
+        "DATABASE": "log.db",
+        "ENVIRONMENT_DATA": "environment_data",
+        "SMOKE_DATA": "smoke_data",
+        "GPS_DATA": "gps_data"      
+    },
+    "NETWORK": {
+        "GOOGLE_IP": "https://www.google.com"
+    },
+    "GPIO": {
+	"RH_TEMP_PIN": 26,
+	"DISTANCE_PIN": "",
+    "SMOKE_PIN": ""
+    }
+}
