@@ -15,6 +15,7 @@ Install sqlite3 in the raspberry pi system
 
 # Running
 Run the main.py file
+For automated collection at specific time intervals, run script.sh
 
 # Debugging
 Open the sqlite3 database and the online database to start debugging results
